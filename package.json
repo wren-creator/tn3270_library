@@ -1,0 +1,54 @@
+{
+  "name": "node-tn3270e",
+  "version": "1.0.0",
+  "description": "A full TN3270/TN3270E protocol library for Node.js. Handles Telnet negotiation, LU binding, 3270 datastream parsing, EBCDIC conversion, and AID key encoding.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./session": "./src/session.js",
+    "./ebcdic": "./src/ebcdic.js",
+    "./constants": "./src/constants.js"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "example": "node examples/basic-connect.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "tn3270",
+    "tn3270e",
+    "vtam",
+    "mainframe",
+    "ibm",
+    "3270",
+    "ebcdic",
+    "telnet",
+    "sna",
+    "zos",
+    "mvs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/node-tn3270e.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/node-tn3270e/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/node-tn3270e#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/",
+    "docs/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
