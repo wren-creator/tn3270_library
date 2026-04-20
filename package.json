@@ -1,6 +1,6 @@
 {
   "name": "tn3270e_library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A full TN3270/TN3270E protocol library for Node.js. Handles Telnet negotiation, LU binding, 3270 datastream parsing, EBCDIC conversion, and AID key encoding.",
   "main": "src/index.js",
   "exports": {
