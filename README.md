@@ -1,11 +1,11 @@
-# node-tn3270e
+# tn3270_library
 
 A complete, zero-dependency TN3270/TN3270E protocol library for Node.js.
 
 Handles the full mainframe terminal session lifecycle — from raw TCP connection through Telnet negotiation, LU binding, 3270 datastream parsing, and EBCDIC conversion — so you can focus on building applications, not protocol archaeology.
 
 ```
-npm install node-tn3270e
+npm install tn3270e_library
 ```
 
 ---
@@ -23,7 +23,7 @@ See [`docs/`](./docs/) for the companion glossary and protocol reference.
 ## Quick Start
 
 ```javascript
-const { Tn3270Session } = require('node-tn3270e');
+const { Tn3270Session } = require('tn3270_library');
 
 const session = new Tn3270Session({
   host:    '10.1.1.1',
@@ -196,7 +196,7 @@ Set cursor by row and column (1-based).
 ### EBCDIC Utilities
 
 ```javascript
-const { Ebcdic } = require('node-tn3270e');
+const { Ebcdic } = require('tn3270_library');
 
 // EBCDIC buffer → ASCII string
 const str = Ebcdic.toAscii(buffer, 37);
@@ -221,7 +221,7 @@ const pages = Ebcdic.listCodepages();
 All protocol constants are exported for use in your own parsing or encoding:
 
 ```javascript
-const { AID, CMD, ORDER, FA, COLOR, HIGHLIGHT, TELNET, OPT, TN3E, SNA } = require('node-tn3270e');
+const { AID, CMD, ORDER, FA, COLOR, HIGHLIGHT, TELNET, OPT, TN3E, SNA } = require('tn3270_library');
 
 // AID bytes
 AID.ENTER   // 0x7D
