@@ -1,8 +1,8 @@
 # Publishing Guide
 
 This library publishes to two registries simultaneously on every version tag:
-- **npmjs.org** — public, installable with `npm install node-tn3270e`
-- **GitHub Packages** — installable as `@YOUR_USERNAME/node-tn3270e`
+- **npmjs.org** — public, installable with `npm install tn3270_library`
+- **GitHub Packages** — installable as `@YOUR_USERNAME/tn3270_library`
 
 ---
 
