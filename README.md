@@ -284,4 +284,4 @@ See [`docs/PUBLISHING.md`](./docs/PUBLISHING.md) for step-by-step instructions o
 
 ## License
 
-MIT
+GPL-3.0-or-later

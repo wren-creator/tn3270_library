@@ -189,4 +189,4 @@ go get github.com/YOUR_USERNAME/tn3270e@v1.0.0
 
 ## License
 
-MIT
+GPL-3.0-or-later
